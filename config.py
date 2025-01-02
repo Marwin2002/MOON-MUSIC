@@ -12,7 +12,7 @@ load_dotenv()
 API_ID = 27758016
 API_HASH = "8d34cfffe27ab461eabbf0091b1a27df"
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7940603237:AAHHv6naXlKgUK2ZvIP8Ao1izMpSRuAtg9w")
+BOT_TOKEN = "7940603237:AAHHv6naXlKgUK2ZvIP8Ao1izMpSRuAtg9w"
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","")
 # --------------------------------------------------------
@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = "mongodb+srv://tennyson2002:tennyson2002@cluster0.h1vm3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -38,7 +38,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002250226716))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7403621976))
+OWNER_ID = 7403621976
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
